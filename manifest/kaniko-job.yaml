@@ -25,7 +25,7 @@ spec:
           args:
             - --context=dir:///workspace/containerisation-kaniko-eks
             - --dockerfile=/workspace/containerisation-kaniko-eks/Dockerfile
-            - --destination=devopsg1/dotnet-app:v2
+            - --destination=devopsg1/dotnet-app:v3
             - --cache=true
           volumeMounts:
             - name: workspace
